@@ -6,7 +6,6 @@ export default async function ProjectsList() {
   });
   const data = await response.json();
 
-  throw new Error("This is a test error");
   return (
     <div>
       <ul>
