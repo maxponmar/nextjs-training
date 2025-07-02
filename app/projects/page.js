@@ -5,7 +5,7 @@ import ProjectListLoading from "./components/projectlistloading";
 export default async function Projects() {
   
   return (
-    <div>
+    <div className="p-4">
       <h1 className="text-2xl font-bold">Projects</h1>
       <Suspense fallback={<ProjectListLoading />}>
         <ProjectsList />
